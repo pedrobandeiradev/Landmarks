@@ -18,7 +18,7 @@ struct CategoryItem: View {
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             Text(landmark.name)
-                .foregroundColor(.primary)
+                .foregroundStyle(.black)
                 .font(.caption)
         }
         .padding(.leading, 15)
